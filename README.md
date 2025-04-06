@@ -3,6 +3,8 @@ Comprehensive collection of FAANG interview preparation material including codin
 # HashMap in Java - Detailed Information
 
 ### Introduction
+HashMap is a powerful and versatile data structure in Java, providing constant time complexity for most operations like insertion, deletion, and lookups. Understanding its methods, time complexities, and common use-cases is crucial for solving real-world problems, especially in FAANG-style interviews.
+
 A **HashMap** in Java is a data structure that allows us to store key-value pairs, where each key is unique, and each key is associated with one value. It is part of the `java.util` package and implements the `Map` interface.
 
 ---
