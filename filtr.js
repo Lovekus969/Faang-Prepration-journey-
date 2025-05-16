@@ -30,7 +30,7 @@ const index = [5, 12, 8, 130].findIndex(x => x > 10);
 // ANother popular sorting algoritham used as the .reduce notation in javascriprt which works on the concept of accumulator and element values 
 const nums = [1, 2, 3, 4, 5];
 
-const evenSum = nums.reduce((acc, curr) => {
+const evenSum = nums.reduce((acc, curr) => { // give sum for only even numbers  via using .reduce notaion we see how the sorting works .
   if (curr % 2 === 0) {
     return acc + curr;
   }
