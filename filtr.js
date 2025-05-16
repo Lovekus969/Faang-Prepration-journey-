@@ -17,4 +17,13 @@ console.log(activeUsers);
 //   { id: 1, name: 'Alice', active: true },
 //   { id: 3, name: 'Charlie', active: true }
 // ]
+const index = [5, 12, 8, 130].findIndex(x => x > 10);
+// Output: 1
+// . .some()
+// Purpose: Checks if any element passes the condition.
+
+// javascript
+[1, 2, 3].some(n => n > 2); // true
+// Purpose: Checks if all elements pass the condition.
+[1, 2, 3].every(n => n > 0); // true
 
