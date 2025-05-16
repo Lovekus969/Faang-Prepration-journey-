@@ -17,22 +17,6 @@ A **HashMap** in Java is a data structure that allows us to store key-value pair
 - **Non-Synchronized**: It is not thread-safe by default. Use `ConcurrentHashMap` if you need thread safety.
 - **Time Complexity**: Average-case time complexity for `put()`, `get()`, and `remove()` is **O(1)**.
 
----
-
-### Common Methods of HashMap
-
-| Method                   | Description                                 |
-|--------------------------|---------------------------------------------|
-| `put(K key, V value)`     | Adds a key-value pair to the map.           |
-| `get(K key)`              | Returns the value associated with the key.  |
-| `containsKey(K key)`      | Checks if a key exists in the map.          |
-| `containsValue(V value)`  | Checks if a value exists in the map.        |
-| `remove(K key)`           | Removes the key-value pair for the given key. |
-| `getOrDefault(K key, V defaultValue)` | Returns the value if the key exists; otherwise, returns the default value. |
-| `clear()`                 | Removes all key-value pairs from the map.   |
-| `size()`                  | Returns the number of key-value pairs in the map. |
-
----
 
 ### Time Complexity of HashMap Operations
 | Operation     | Time Complexity |
@@ -60,4 +44,10 @@ A **HashMap** in Java is a data structure that allows us to store key-value pair
    }
 
    System.out.println(freqMap); // Output: {1=3, 2=2, 3=1}
+
+COncept of fileter
+      const numbers = [1, 2, 3, 4, 5];
+      const evenNumbers = numbers.filter(num => num % 2 === 0);
+      
+      console.log(evenNumbers); // [2, 4]
 
