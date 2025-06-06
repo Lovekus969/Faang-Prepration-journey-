@@ -50,4 +50,6 @@ COncept of fileter
       const evenNumbers = numbers.filter(num => num % 2 === 0);
       
       console.log(evenNumbers); // [2, 4]
+2-Month FAANG DSA Prep Plan
+(From June 6 to August 6, full beast mode 🔥
 
