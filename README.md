@@ -53,3 +53,13 @@ COncept of fileter
 2-Month FAANG DSA Prep Plan
 (From June 6 to August 6, full beast mode 🔥
 
+Today is june 17 
+-----------------------------Binary Tree Basics (FAANG Style)✅ Properties---------------------------------------
+Each node has at most 2 children: left and right.
+
+The top node is called the root.
+
+A node with no children is called a leaf.
+
+Height = longest path from root to a leaf.**
+
