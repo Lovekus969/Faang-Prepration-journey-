@@ -100,6 +100,10 @@ Here we see today Linked List entire followed structure
  Add Two Numbers (LeetCode 2)
 
  Reorder List
+ What is a Linked List?
+🔸 Intuition:
+A chain of nodes, where each node holds data and a pointer to the next.
+Unlike arrays, memory isn't continuous — it’s like scattered rooms with secret paths.
 
  Reverse in K Groups
 
