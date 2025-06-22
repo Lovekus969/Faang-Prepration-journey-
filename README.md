@@ -62,48 +62,12 @@ The top node is called the root.
 A node with no children is called a leaf.
 
 Height = longest path from root to a leaf.**
-20-06-2025 
-Here we see today Linked List entire followed structure 
-🔥 Level 1: Basics
- Understand Node structure
 
- Singly vs Doubly vs Circular Linked List
 
- Insert at head/tail/middle
+FACT:
+Java is statically typed —
+You must define types, or the compiler gets angry ☕😠
 
- Delete node (given head and key)
-
- Traverse & print
-
-⚔️ Level 2: FAANG Patterns
- Reverse Linked List (Iterative + Recursive) ⭐
-
- Find Middle of Linked List (Slow & Fast Pointer)
-
- Detect Cycle in Linked List (Floyd’s Algo)
-
- Remove N-th node from end
-
- Merge Two Sorted Linked Lists
-
- Palindrome Linked List
-
- Intersection Point of Two LLs
-
- Copy List with Random Pointer
-
-🧠 Level 3: Advanced Challenges
- LRU Cache Implementation
-
- Flatten Multilevel DLL
-
- Add Two Numbers (LeetCode 2)
-
- Reorder List
- What is a Linked List?
-🔸 Intuition:
-A chain of nodes, where each node holds data and a pointer to the next.
-Unlike arrays, memory isn't continuous — it’s like scattered rooms with secret paths.
-
- Reverse in K Groups
+JavaScript is dynamically typed —
+The engine says “I got you bro, throw me anything.” 🔥💨
 
