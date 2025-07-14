@@ -63,11 +63,18 @@ A node with no children is called a leaf.
 
 Height = longest path from root to a leaf.**
 
+Todays 14 july  Watch List:
+✅ Graph Representation (Adjacency List / Matrix)
 
-FACT:
-Java is statically typed —
-You must define types, or the compiler gets angry ☕😠
+✅ DFS & BFS (Recursive + Iterative)
 
-JavaScript is dynamically typed —
-The engine says “I got you bro, throw me anything.” 🔥💨
+✅ Cycle Detection (Directed + Undirected)
+
+✅ Topological Sort (Kahn’s Algo + DFS version)
+
+✅ Dijkstra’s Algorithm
+
+✅ Prim’s & Kruskal’s (MST)
+
+✅ Disjoint Set Union (DSU)
 
