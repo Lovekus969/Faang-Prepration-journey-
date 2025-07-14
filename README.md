@@ -79,3 +79,8 @@ Todays 14 july  Watch List:
 ✅ Disjoint Set Union (DSU)
 We will see some traversal in java 
 inorder , postorder and preorder traversal in java 
+This project implements basic binary tree traversals (Inorder, Preorder, Postorder) in Java.
+
+## How to run
+
+Compile and run `Faang.java`:
