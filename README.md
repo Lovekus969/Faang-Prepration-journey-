@@ -77,4 +77,5 @@ Todays 14 july  Watch List:
 ✅ Prim’s & Kruskal’s (MST)
 
 ✅ Disjoint Set Union (DSU)
-
+We will see some traversal in java 
+inorder , postorder and preorder traversal in java 
