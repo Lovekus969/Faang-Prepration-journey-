@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+import java.util.Queue;
 public class Traversal {
 
     // Static inner class for Tree Node
@@ -37,6 +39,20 @@ public class Traversal {
         postorder(root.right);
         System.out.print(root.data + " ");
     }
+   public  void levelOrder(Node root) {
+    if (root == null) return;
+
+    Queue<Node> queue = new LinkedList<>();
+    queue.add(root);
+
+    while (!queue.isEmpty()) {
+        Node current = queue.poll();
+        System.out.print(current.data + " ");
+
+        if (current.left != null) queue.add(current.left);
+        if (current.right != null) queue.add(current.right);
+    }
+}
 
     public static void main(String[] args) {
         Traversal tree = new Traversal();
@@ -69,6 +85,10 @@ public class Traversal {
         // Postorder Traversal
         System.out.print("Postorder: ");
         tree.postorder(root);
+        System.out.println();
+
+        System.out.println(" level order ");
+        tree.levelOrder(root);
         System.out.println();
     }
 }
