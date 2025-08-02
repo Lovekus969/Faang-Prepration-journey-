@@ -1,3 +1,4 @@
+“Each line I read, each line I write — brings the G63 closer.”  (book by - Learning made easy java all in one ) 
 This repo is going to be all about some java code : 
 17 -07-2025 
 Statrt from genreating the file of the code name as the BMW.java where we will see some of the car fuicntion and then we will try to make more progran and mwthod along whatever we will need as a real software developer form 0 to hero level . lets begin today now 
