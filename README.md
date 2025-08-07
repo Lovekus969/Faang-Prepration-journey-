@@ -9,5 +9,14 @@ Lets built and system that bmw use and the fucntions in there real life lets go 
 
 
 
-Binary trees are a core data structure used in many coding interview problems, especially at the FAANG level. While a tree looks simple, its traversal techniques open the door to solving complex problems like:
 
+Q..When would you use a Hash Map over a Tree?
+Use a HashMap when:
+You need fast access to data using keys (O(1) average case).
+The order of elements doesn't matter.
+Example: looking up users by ID, counting word frequency, caching.
+Use a Tree (like BST) when:
+You need sorted order of elements.
+You want to perform range queries (e.g., values between 10 and 50).
+You need ordered traversal (in-order, pre-order, etc.).
+HashMap is faster for lookup, but Trees are better for maintaining order.
