@@ -1,22 +1,19 @@
 “Each line I read, each line I write — brings the G63 closer.”  (book by - Learning made easy java all in one ) 
-This repo is going to be all about some java code : 
+This repo is going to be all about some Java code : 
 17 -07-2025 
-Statrt from genreating the file of the code name as the BMW.java where we will see some of the car fuicntion and then we will try to make more progran and mwthod along whatever we will need as a real software developer form 0 to hero level . lets begin today now 
-
-
-Lets built and system that bmw use and the fucntions in there real life lets go thrugh from all and soon we will try to built something for BMW something better something uniuqe just like M8 compition which is not only luxury but spacejet .
-// lets make an fucntion for the drive mode.
 
 
 
-
-Q..When would you use a Hash Map over a Tree?
+Q: When would you use a Hash Map over a Tree?
 Use a HashMap when:
 You need fast access to data using keys (O(1) average case).
 The order of elements doesn't matter.
-Example: looking up users by ID, counting word frequency, caching.
+Example: looking up users by ID, counting word frequency, and caching.
 Use a Tree (like BST) when:
-You need sorted order of elements.
+You need a sorted order of elements.
 You want to perform range queries (e.g., values between 10 and 50).
-You need ordered traversal (in-order, pre-order, etc.).
+You need an ordered traversal (in-order, pre-order, etc.).
 HashMap is faster for lookup, but Trees are better for maintaining order.
+
+Q... Advantages of a Binary Search Tree (BST)
+Allows fast lookup, insertion, and deletion in O(log n) time (when balanced). Supports sorted data and in-order traversal. Good for range queries (like get all elements between 10 and 50). Flexible – can be modified into AVL trees, Red-Black Trees, etc., for balancing. But if the tree becomes unbalanced (e.g., like a linked list), performance degrades to O(n).
