@@ -7,3 +7,6 @@ That means:
 ‣ No two queens in the same row
 ‣ No two queens in the same column
 ‣ No two queens in the same diagonal
+
+
+So far so good and now make a fucntion which can return the entire possible chess boards possible in n X n 
