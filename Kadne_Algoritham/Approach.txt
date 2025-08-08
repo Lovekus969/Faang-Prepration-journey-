@@ -1,0 +1,18 @@
+Kadane’s Algorithm — Intuition
+Imagine you are walking along an array of numbers, and you want to find the contiguous segment where the sum of numbers is the largest possible.
+At each step (each number), we have two choices:
+Start a new subarray beginning at the current number (if the previous sum was negative or smaller).
+Extend the existing subarray by adding the current number.
+
+ reason Why?.........................................?
+Because if the running sum before this number is negative, adding it would only decrease your total, so it’s better to start fresh at the current number.
+While doing this, you keep track of the maximum sum encountered so far.
+
+Key points:
+We only need to traverse the array once (O(n) time).
+
+We keep two variables:
+currentSum (best sum ending at current position)
+maxSum (best sum found overall)
+Update currentSum by deciding whether to include the current element or start anew.
+Update maxSum if currentSum beats it.
