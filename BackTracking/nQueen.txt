@@ -1,0 +1,9 @@
+What is the N-Queens Problem?
+You are given an N×N chessboard, and you need to place N queens such that:
+
+No two queens attack each other.
+
+That means:
+‣ No two queens in the same row
+‣ No two queens in the same column
+‣ No two queens in the same diagonal
