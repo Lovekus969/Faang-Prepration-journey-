@@ -16,3 +16,12 @@ currentSum (best sum ending at current position)
 maxSum (best sum found overall)
 Update currentSum by deciding whether to include the current element or start anew.
 Update maxSum if currentSum beats it.
+
+
+So true,  Time Complexity
+Kadane’s algorithm runs in O(n) time because we go through the array once.
+
+Math.max(a, b) is a constant-time operation → O(1).
+
+So adding it inside the loop does not change time complexity — still O(n).
+                                  O(n) x O (1) = = > O(n)                              : this is the game here ...
