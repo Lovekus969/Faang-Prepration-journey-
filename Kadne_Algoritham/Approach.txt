@@ -25,3 +25,12 @@ Math.max(a, b) is a constant-time operation → O(1).
 
 So adding it inside the loop does not change time complexity — still O(n).
                                   O(n) x O (1) = = > O(n)                              : this is the game here ...
+
+Space Complexity
+We only store a few variables:
+maxsum, finalsum, and the loop index.
+
+Math.max() does not store extra arrays or structures — it just compares two numbers and returns one.
+
+So space complexity stays O(1) (constant extra space). 
+    inbuilt library   or i can say inside the class we use the function so they work in the time complexity O(1) and in the spzcd of same 
