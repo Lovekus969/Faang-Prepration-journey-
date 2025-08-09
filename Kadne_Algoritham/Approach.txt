@@ -33,4 +33,11 @@ maxsum, finalsum, and the loop index.
 Math.max() does not store extra arrays or structures — it just compares two numbers and returns one.
 
 So space complexity stays O(1) (constant extra space). 
-    inbuilt library   or i can say inside the class we use the function so they work in the time complexity O(1) and in the spzcd of same 
+    inbuilt library   or i can say inside the class, we use the function so they work in the time complexity O(1) and in the space complexity of the same 
+                          Why Math.max() doesn’t count as extra space
+                            It doesn’t allocate memory on the heap.
+                                      if (a > b)
+                                       return a; 
+                                    else  
+                                       return b;
+
