@@ -1,0 +1,15 @@
+📝 In-Place vs Stable Sorting Algorithms
+1. In-Place Sorting
+
+Definition:
+Sorts the array without using extra space (or minimal extra space).
+
+Memory Usage: Constant or O(1) extra space.
+
+Examples:
+
+In-place: Bubble Sort, Insertion Sort, Selection Sort, Quick Sort, Heap Sort
+
+Not in-place: Merge Sort, Counting Sort, Radix Sort, Timsort (needs extra space for merges)
+
+Use-case: When memory is limited.
