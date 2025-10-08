@@ -42,3 +42,15 @@ but not how those operations are implemented.
 | ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
 | **Linear Data Structure**     | Elements are arranged **sequentially**, one after another. Every element has **a unique predecessor and successor** (except first and last).                   | Array, Linked List, Stack, Queue |
 | **Non-Linear Data Structure** | Elements are **not sequentially connected**; they form a **hierarchical or network** structure. Each element (node) can be connected to **multiple elements**. | Tree, Graph                      |
+
+
+
+Formula for Number of Nodes in a Full Binary Tree
+
+                  A full binary tree (also called a perfect binary tree) is one where:
+                  Every level is completely filled.
+                  Every non-leaf node has exactly two children.
+
+🧮 Formula =======>>>           If the tree has L levels (counting root as level 1):
+
+                              Total Nodes=2^L−1
