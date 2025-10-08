@@ -27,3 +27,9 @@ An Abstract Data Type (ADT) defines what a data structure does, not how it does 
 
 It specifies the behavior (operations) that can be performed on data.
 It hides the implementation details of how those operations are carried out.
+
+Abstract Data Type (ADT)
+
+An Abstract Data Type (ADT) is a model of a data structure that defines
+👉 what operations can be performed on the data,
+but not how those operations are implemented.
