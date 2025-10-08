@@ -1,0 +1,18 @@
+Bubble Sort
+🔹 Idea:
+
+Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order.
+It “bubbles” the largest element to the end after each pass.
+
+🔹 Steps:
+      Compare adjacent elements.
+      Swap if the left is greater than the right.
+      Repeat until the list is sorted.
+
+
+| Case                  | Complexity      |
+| --------------------- | --------------- |
+| Best (already sorted) | O(n)            |
+| Average               | O(n²)           |
+| Worst                 | O(n²)           |
+| Space                 | O(1) (in-place) |
