@@ -16,3 +16,14 @@ It “bubbles” the largest element to the end after each pass.
 | Average               | O(n²)           |
 | Worst                 | O(n²)           |
 | Space                 | O(1) (in-place) |
+
+
+
+What is an ADT (Abstract Data Type)?
+
+An Abstract Data Type (ADT) defines what a data structure does, not how it does it.
+
+➡️ In other words:
+
+It specifies the behavior (operations) that can be performed on data.
+It hides the implementation details of how those operations are carried out.
