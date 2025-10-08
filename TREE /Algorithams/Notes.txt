@@ -33,3 +33,12 @@ Abstract Data Type (ADT)
 An Abstract Data Type (ADT) is a model of a data structure that defines
 👉 what operations can be performed on the data,
 but not how those operations are implemented.
+
+
+
+            how trees differ from linear structures like arrays or linked lists.
+
+| Type                          | Definition                                                                                                                                                     | Example Structures               |
+| ----------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
+| **Linear Data Structure**     | Elements are arranged **sequentially**, one after another. Every element has **a unique predecessor and successor** (except first and last).                   | Array, Linked List, Stack, Queue |
+| **Non-Linear Data Structure** | Elements are **not sequentially connected**; they form a **hierarchical or network** structure. Each element (node) can be connected to **multiple elements**. | Tree, Graph                      |
