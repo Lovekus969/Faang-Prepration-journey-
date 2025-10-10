@@ -1,1 +1,2 @@
 Data Structure ---->>
+A tree in computer science is a non-linear hierarchical data structure made up of nodes that are connected by edges. It’s widely used in data organization, searching, sorting, and hierarchical representations like file systems or organizational charts.
