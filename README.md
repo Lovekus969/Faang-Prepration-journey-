@@ -32,3 +32,6 @@ Intuition:
             Place queens one row at a time.
             Before placing, check if the position is safe (no attacks from other queens).
             Use backtracking: if a position isn’t safe, backtrack and try next possibilities until all queens are placed safely.
+
+"No pain, no fall, no setback can make me quit.
+Every time I’m hit, I rise sharper. I don’t stop — I evolve."
