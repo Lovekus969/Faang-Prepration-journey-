@@ -39,3 +39,10 @@ Binary Search Tree (BST): Binary tree where left child < parent < right child.
     Trees are hierarchical, non-linear data structures.
     They make searching, insertion, deletion, and hierarchical modeling easier and more efficient.
     Widely used in file systems, databases, AI, networking, and compilers.
+
+                                                                Tree vs Binary Tree
+| **Feature**            | **Tree (General Tree)**                                                       | **Binary Tree**                                                                                                     |
+| ---------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
+| **Definition**         | A hierarchical structure where each node can have **any number of children**. | A hierarchical structure where each node can have **at most two children** — usually called **left** and **right**. |
+| **Number of Children** | No limit (can have 0, 1, 2, 3, … children).                                   | Limited to **two children maximum**.                                                                                |
+| **Structure Example**  | ```                                                                           |                                                                                                                     |
