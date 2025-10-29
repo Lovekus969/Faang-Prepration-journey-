@@ -46,3 +46,22 @@ Binary Search Tree (BST): Binary tree where left child < parent < right child.
 | **Definition**         | A hierarchical structure where each node can have **any number of children**. | A hierarchical structure where each node can have **at most two children** — usually called **left** and **right**. |
 | **Number of Children** | No limit (can have 0, 1, 2, 3, … children).                                   | Limited to **two children maximum**.                                                                                |
 | **Structure Example**  | ```                                                                           |                                                                                                                     |
+                                                A
+                                               /|\
+                                              B C D
+                                             / \
+                                            E  F
+| **Ease of Implementation** | More complex (since number of children is not fixed). | Easier to implement (fixed two-child structure). |
+| **Common Uses** | File systems, organizational hierarchies, HTML/XML DOM. | Binary search trees, heaps, expression trees, Huffman coding trees. |
+| **Traversal Methods** | General tree traversals (preorder, postorder, level order). | Preorder, inorder, postorder, and level order traversals. |
+| **Storage Representation** | Each node can use a list or array of child pointers. | Each node typically uses two pointers: `left` and `right`. |
+
+---
+
+### **In short:**
+- Every **Binary Tree** is a **Tree**,  
+- But **not every Tree** is a **Binary Tree**.  
+
+---
+
+Would you like me to show you **Java code examples** for both — a general tree and a binary tree — to see the difference in implementation?
