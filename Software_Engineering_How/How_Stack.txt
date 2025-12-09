@@ -7,3 +7,12 @@ STACK (Automatic Memory)
       local variables
       return addresses
       saved registers
+
+How it grows:
+  The stack usually grows downwards (towards lower memory addresses).
+    High Memory
+      ↓
+  +-----------+
+  |   Stack   |
+  +-----------+
+    ↓ grows down
