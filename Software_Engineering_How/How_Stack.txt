@@ -1,0 +1,9 @@
+STACK (Automatic Memory)
+👉 What it is:
+
+  A region of memory used for:
+  
+      function calls
+      local variables
+      return addresses
+      saved registers
