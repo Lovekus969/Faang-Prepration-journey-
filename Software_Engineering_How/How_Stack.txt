@@ -16,3 +16,19 @@ How it grows:
   |   Stack   |
   +-----------+
     ↓ grows down
+
+👉 Managed by:
+
+CPU + compiler, not by you.
+
+👉 Allocation:
+
+Happens automatically when a function is called.
+
+👉 Deallocation:
+
+Happens automatically when a function returns.
+
+👉 Fast?
+
+YES — extremely fast, because it’s just a pointer move.
