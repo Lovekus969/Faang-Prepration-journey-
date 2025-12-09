@@ -32,3 +32,24 @@ Happens automatically when a function returns.
 👉 Fast?
 
 YES — extremely fast, because it’s just a pointer move.
+
+2. HEAP (Dynamic Memory)
+What it is:
+
+  A memory region used for dynamic allocation, where you manually allocate:
+
+    malloc()
+    calloc()
+    realloc()
+    new (in C++)
+
+ How it grows:
+  Heap grows upwards (towards higher addresses).
+
+Low Memory
+    ↑
++-----------+
+|   Heap    |
++-----------+
+    ↑ grows up
+
