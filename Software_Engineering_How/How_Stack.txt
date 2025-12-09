@@ -65,3 +65,7 @@ Low Memory
                           +----------------+
                           | Arguments      |
                           +----------------+
+
+Stack is a fast, automatically managed memory region used for function calls and local variables. It grows downward and deallocates automatically when the function exits.
+
+Heap is a dynamically managed memory region used for allocating memory at runtime using malloc() or new. It grows upward and is slower, because memory must be searched and manually freed.
