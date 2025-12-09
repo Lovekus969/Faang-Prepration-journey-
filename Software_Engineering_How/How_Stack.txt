@@ -53,3 +53,15 @@ Low Memory
 +-----------+
     ↑ grows up
 
+                                  ******************************  Stack Frame (Deep Understanding)   ****************************************
+
+        Every time you call a function, a stack frame is created:
+                          +----------------+
+                          | Return Address |
+                          +----------------+
+                          | Saved Registers|
+                          +----------------+
+                          | Local Variables|
+                          +----------------+
+                          | Arguments      |
+                          +----------------+
